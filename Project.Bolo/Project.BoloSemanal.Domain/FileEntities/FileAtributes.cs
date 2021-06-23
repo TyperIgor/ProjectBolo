@@ -5,7 +5,7 @@ namespace Project.BoloSemanal.Domain.FileEntities
 {
     public abstract class FileAtributes
     {
-        private StreamReader _fileNames = new StreamReader(@"C:\Users\igor.lima\Documents\bolosemanal.txt");
+        private StreamReader _fileNames = new StreamReader(@"Caminho da pasta a ler o arquivo");
 
         private List<string> _names = new List<string>();
 
